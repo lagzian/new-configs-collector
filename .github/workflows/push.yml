@@ -46,8 +46,8 @@ jobs:
         run: |
           git checkout --orphan latest_branch
           git rm -r -f __pycache__
-          git config --local user.email "milad.lagzian@gmail.com"
-          git config --local user.name "lagzian"
+          git config --local user.email "dddddd@gmail.com"
+          git config --local user.name "ddddd"
           git add -A
           git commit -am "Updated $(TZ='Asia/Tehran' date '+%Y-%m-%d %H:%M %Z')"
           git branch -D main
